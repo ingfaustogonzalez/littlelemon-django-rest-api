@@ -1,0 +1,47 @@
+Username:   admin           Password:   Venezuela   email:  admin@littlelemon.com           Token:  2ebe012513e17bd155d2b095600d36e3c935ec70
+Username:   admin1          Password:   a1          email:  admin1@littlelemon.com          Token:  9740a93944d696158ba02824530445017fcbe403
+Username:   delivery1       Password:   d1          email:  delivery1@littlelemon.com       Token:  8ef6f9d52cfc22d0a65ce3182c870c7885a5029e
+Username:   delivery2       Password:   d2          email:  delivery2@littlelemon.com       Token:  3ce37975c02a7477fe9b70771ef41f6ebb42654a
+Username:   customer1       Password:   c1          email:  customer1@littlelemon.com       Token:  88fd92260a0d146053bc3f1139deff52f5b5986b
+Username:   customer2       Password:   c2          email:  customer2@littlelemon.com       Token:  fdd45f822388b174d775f76b8e936c7eaca8e534
+Username:   customer3       Password:   c3          email:  customer3@littlelemon.com       Token:  f51b79fc2ef82cec9405ef45150cce3d6c8a3536
+
+
+Notes:
+1. This is my Final Project for Module 6: APIs, as part of the "Meta Back-End
+Developer Professional Certificate" course. Everything is fully functional, and
+each endpoint works as expected.
+2. The project was developed using a combination of function-based and
+class-based views.
+3. I followed all the principles and naming conventions discussed throughout the course.
+4. I am providing the file: Insomnia_2024-10-18.json, which contains all the endpoints
+that need to be checked. I highly recommend importing this file into Insomnia to save
+time when reviewing the endpoints.
+5. The database is populated with typical dishes from my country of birth, Venezuela.
+Therefore, the names of the dishes and categories are in Spanish.
+6. Lastly, as a reference, here’s the information contained in the Category model:
+
+
++----+-------------------+-------------------------------------------------+
+| id | title             | Description in English                          |
++----+-------------------+-------------------------------------------------+
+|  1 | Platos principales| Main dishes or main course.                     |
+|    |                   |                                                 |
+|  2 | Arepas            | A traditional Venezuelan flatbread made from    |
+|    |                   | cornmeal dough, often stuffed with various      |
+|    |                   | fillings after being grilled, baked, or fried.  |
+|    |                   |                                                 |
+|  3 | Empanadas         | Venezuelan version of Latin-American empanadas, |
+|    |                   | made from cornmeal dough and fried.             |
+|    |                   |                                                 |
+|  4 | Bebidas           | Drinks.                                         |
+|    |                   |                                                 |
+|  6 | Postres           | Desserts.                                       |
+|    |                   |                                                 |
+|  8 | Cachapas          | Traditional dish made from maize flour,         |
+|    |                   | resembling pancakes made with fresh corn dough. |
+|    |                   |                                                 |
+|  9 | Entradas          | Appetizers or starters.                         |
+|    |                   |                                                 |
+| 12 | Patacones         | Venezuelan fried plantain sandwich.             |
++----+-------------------+-------------------------------------------------+
