@@ -96,7 +96,7 @@ littlelemon-django-rest-api/assets/
 ## 1. Djoser Endpoints
 
 ### 1.1. Create new user — POST `/api/users/`
-**Screenshot:** `Screenshot_01_create_new_user.png`
+![Create a New User](assets/Screenshot_01_create_new_user.png)
 
 ### 1.2. List current user — GET `/api/users/me/`
 **Screenshot:** `Screenshot_02_list_current_user.png`
