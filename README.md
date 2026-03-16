@@ -57,7 +57,7 @@ littlelemon-django-rest-api/
 ├── Insomnia_2024-10-18.json
 ├── README.md
 └── assets/
-
+```
 
 ---
 
@@ -89,20 +89,20 @@ Each request already includes:
 # 📸 Screenshots by Endpoint Category
 _All screenshots are located in:_
 littlelemon-django-rest-api/assets/
-
+```
 
 ---
 
 ## 1. Djoser Endpoints
 
 ### 1.1. Create new user — POST `/api/users/`
-![Create a New User](assets/Screenshot_01_create_new_user.png)
+![Create a new user](assets/Screenshot_01_create_new_user.png)
 
 ### 1.2. List current user — GET `/api/users/me/`
-**Screenshot:** `Screenshot_02_list_current_user.png`
+![List current user](assets/Screenshot_02_list_current_user.png)
 
 ### 1.3. Generate access token — POST `/api/token/login/`
-**Screenshot:** `Screenshot_03_generate_access_token.png`
+![Generate access token](assets/Screenshot_03_generate_access_token.png)
 
 ### 1.4. Logout — POST `/api/token/logout/`
 (No screenshot)
@@ -204,7 +204,7 @@ pipenv install django       # Installs Django
 
 python manage.py migrate
 python manage.py runserver
-
+```
 
 ---
 
@@ -214,4 +214,5 @@ python manage.py runserver
 # 📬 Author
 **Fausto Gonzalez**  
 Email: ingfaustogonzalez@gmail.com
+```
 
