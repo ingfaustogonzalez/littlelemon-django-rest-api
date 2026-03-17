@@ -51,69 +51,17 @@ littlelemon-django-rest-api/
 # **Insomnia Collection**
 
 ## 🧪 Testing with Insomnia (Recommended)
-To make reviewing this project as easy as possible, I have included a pre-configured Insomnia workspace.
+The repository includes ```Insomnia_2024-10-18.json```, which contains all API endpoints organized into functional folders:
 
-- **File:** ```Insomnia_2024-10-18.json``` (located in the root directory).
-- **How to use:** Import this file into [Insomnia](https://insomnia.rest/) to access all endpoints pre-filled with the correct methods, headers, and body payloads.
+1. **Djoser endpoints:** Signup, Login, Me, Logout
+2. **User group management:** Manager and Delivery Crew assignments
+3. **Category endpoints:** Full CRUD for menu categories
+4. **Menu-items endpoints:** Browsing, searching, and managing dishes
+5. **Cart management:** Customer-specific cart workflows
+6. **Order management:** Creation, assignment, and status updates
+7. **Additional endpoints:** Full user list (Manager only)
 
-```markdown
-## 🧪 Insomnia Collection (Recommended for Testing)
-
-The repository includes **Insomnia_2024-10-18.json**, which contains **all API endpoints**, fully organized into folders:
-
-1. Djoser endpoints
-    1.1. Any user Signup: Create new user
-    1.2. Any user: List current user
-    1.3. Any user login: Generate access token
-    1.4. Any logged in user logout: Destroy access token
-2. User group management endpoints
-    2.1. Manager: List all Managers
-    2.2. Manager: Assign user to Manager group
-    2.3. Manager: Remove user from Manager group
-    2.4. Manager: List all Delivery crews
-    2.5. Manager: Assign user to Delivery crew group
-    2.6. Manager: Remove user from Delivery crew group
-3. Category endpoints
-    3.1. Any user: List all Categories
-    3.2. Manager: Create new Category
-    3.3. Any user: List single Category
-    3.4. Manager: Edit single Category
-    3.5. Manager: Delete single Category
-4. Menu-items endpoints
-    4.1. Any user: List all MenuItems
-    4.2. Manager: Create new MenuItem
-    4.3. Manager: Create new MenuItem(s) from JSON payload
-    4.4. Any user: List single MenuItem
-    4.5. Manager: Edit single MenuItem
-    4.6. Manager: Delete single MenuItem
-    4.7. Any user: List MenuItem(s) of the day
-    4.8. Manager: Update MenuItem of the day
-5. Cart management endpoints
-    5.1. Customer: List current items in the cart
-    5.2. Customer: Add MenuItem to the cart
-    5.3. Customer: Delete MenuItems from own cart
-6. Order management endpoints
-    6.1. Customer: List all Orders from this User
-    6.2. Delivery crew: List all Orders assigned to them
-    6.3. Manager: List all Orders from all Users
-    6.4. Customer: Create a new Order for this User
-    6.5. Manager: Delete single Order
-    6.6. Manager: Update single Order status and delivery_crew
-    6.7. Customer: List single Order
-    6.8. Delivery crew: Update single Order status
-7. Additional endpoints
-    7.1. Manager: List all users
-
-Each request already includes:
-
-- Correct HTTP method  
-- Correct URL  
-- Correct headers  
-- Correct body format  
-- Preconfigured tokens (for demonstration only)
-
-**Import this file into Insomnia to test the entire API quickly and efficiently.**
-```
+To test: Import the JSON file into Insomnia. Each request is pre-configured with the correct URL, headers, and body formats.
 
 ---
 
