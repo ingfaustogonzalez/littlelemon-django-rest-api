@@ -54,11 +54,11 @@ littlelemon-django-rest-api/
 The repository includes ```Insomnia_2024-10-18.json```, which contains all API endpoints organized into functional folders:
 
 1. **Djoser endpoints:** Signup, Login, Me, Logout
-2. **User group management:** Manager and Delivery Crew assignments
+2. **User group management endpoints:** Manager and Delivery Crew assignments
 3. **Category endpoints:** Full CRUD for menu categories
 4. **Menu-items endpoints:** Browsing, searching, and managing dishes
-5. **Cart management:** Customer-specific cart workflows
-6. **Order management:** Creation, assignment, and status updates
+5. **Cart management endpoints:** Customer-specific cart workflows
+6. **Order management endpoints:** Creation, assignment, and status updates
 7. **Additional endpoints:** Full user list (Manager only)
 
 **To test:** Import the JSON file into [Insomnia](https://insomnia.rest/). Each request is pre-configured with the correct URL, headers, and body formats.
