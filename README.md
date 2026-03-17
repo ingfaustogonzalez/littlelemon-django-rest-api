@@ -112,36 +112,36 @@ littlelemon-django-rest-api/assets/
 ## 2. User Group Management Endpoints
 
 ### 2.1. List all Managers — GET `/api/groups/manager/users`
-**Screenshot:** `Screenshot_04_list_all_managers.png`
+![List all managers](assets/Screenshot_04_list_all_managers.png)
 
 ### 2.4. List all Delivery Crew — GET `/api/groups/delivery-crew/users`
-**Screenshot:** `Screenshot_05_list_all_delivery_crews.png`
+![List all delivery crew](assets/Screenshot_05_list_all_delivery_crews.png)
 
 ---
 
 ## 3. Category Endpoints
 
 ### 3.1. List all Categories — GET `/api/category`
-**Screenshot:** `Screenshot_06_list_all_categories.png`
+![List all categories](assets/Screenshot_06_list_all_categories.png)
 
 ### 3.3. List single Category — GET `/api/category/{categoryId}`
-**Screenshot:** `Screenshot_07_list_single_category.png`
+![List single category](assets/Screenshot_07_list_single_category.png)
 
 ---
 
 ## 4. Menu-Items Endpoints
 
 ### 4.1. List all MenuItems — GET `/api/menu-items`
-**Screenshot:** `Screenshot_08_list_all_menu_items.png`
+![List all MenuItems](assets/Screenshot_08_list_all_menu_items.png)
 
 ### 4.4. List single MenuItem — GET `/api/menu-items/{menuItem}`
-**Screenshot:** `Screenshot_09_list_single_menu_item.png`
+![List single MenuItem](assets/Screenshot_09_list_single_menu_item.png)
 
 ### 4.5. Edit single MenuItem — PUT `/api/menu-items/{menuItem}`
-**Screenshot:** `Screenshot_10_edit_single_menu_item.png`
+![Edit single MenuItem](assets/Screenshot_10_edit_single_menu_item.png)
 
 ### 4.7. List MenuItem(s) of the day — GET `/api/menu-items/item-of-the-day`
-**Screenshot:** `Screenshot_11_list_menu_item_of_the_day.png`
+![List MenuItem of the day](assets/Screenshot_11_list_menu_item_of_the_day.png)
 
 ---
 
@@ -153,17 +153,17 @@ littlelemon-django-rest-api/assets/
 ## 6. Order Management Endpoints
 
 ### 6.3. Manager: List all Orders — GET `/api/orders`
-**Screenshot:** `Screenshot_12_list_all_order_from_all_users.png`
+![List all orders](assets/Screenshot_12_list_all_order_from_all_users.png)
 
 ### 6.7. Customer: List single Order — GET `/api/orders/{orderId}`
-**Screenshot:** `Screenshot_13_list_single_order.png`
+![List single order](assets/Screenshot_13_list_single_order.png)
 
 ---
 
 ## 7. Additional Endpoints
 
 ### 7.1. Manager: List all users
-**Screenshot:** `Screenshot_14_list_all_users.png`
+![List all users](assets/Screenshot_14_list_all_users.png)
 
 # 🔐 Authentication and Permissions
 
