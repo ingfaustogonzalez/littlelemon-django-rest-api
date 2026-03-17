@@ -2,11 +2,9 @@
 **Meta Back-End Developer Professional Certificate: Capstone Project**
 
 ## 📖 Description
-A fully functional RESTful API built with Django and Django REST Framework for the fictional Little Lemon restaurant. The system supports three user roles — **managers**, **customers**, and **delivery crew** — and implements user registration, token authentication, role assignment, menu management, cart workflows, order processing, delivery assignment, filtering, pagination, search, and API throttling.
+A fully functional RESTful API built with Django and Django REST Framework for the fictional Little Lemon restaurant. The system supports three user roles — **Managers**, **Customers**, and **Delivery Crew** — and implements user registration, token authentication, role assignment, menu management, cart workflows, order processing, delivery assignment, filtering, pagination, search, and API throttling.
 
-This API serves as the engine for Little Lemon’s digital ecosystem. It handles complex workflows for three distinct user groups: **Managers**, **Customers**, and the **Delivery Crew**.
-
-The database is uniquely populated with authentic Venezuelan cuisine, adding a personal touch to the implementation of categories like Arepas, Cachapas, and Patacones.
+This API serves as the engine for Little Lemon’s digital ecosystem, handling complex workflows across all user groups. As a personal touch, the database is populated with authentic **Venezuelan cuisine**, featuring categories like Arepas, Cachapas, and Patacones.
 
 ### Course Project
 This project was created as the final assessment for **Module 6: APIs** in the **Meta Back-End Developer Professional Certificate** on **Coursera**. It demonstrates practical application of authentication, permissions, serializers, viewsets, filtering, pagination, and throttling.
