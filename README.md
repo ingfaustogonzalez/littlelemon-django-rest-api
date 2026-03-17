@@ -12,17 +12,14 @@ This project was created as the final assessment for **Module 6: APIs** in the *
 ## 🧭 Project Overview
 The API provides:
 
-- Token-based authentication (Djoser)
-- Role management (Manager, Delivery Crew, Customer)
-- CRUD operations for menu items (manager only)
-- Category management
-- Cart system with one active cart per customer
-- Order creation that automatically empties the cart
-- Manager assignment of delivery crew
-- Delivery crew order updates
-- Filtering, searching, sorting, and pagination
-- Throttling (5 requests per minute)
-- Proper HTTP methods and status codes
+- **Token-based authentication** (Djoser)
+- **Role management** (Manager, Delivery Crew, Customer)
+- **CRUD operations** for menu items and categories
+- **Cart system** with one active cart per customer
+- **Order processing** that automatically empties the cart upon success
+- **Logistics management** (Manager assignment to Delivery Crew)
+- **Advanced querying:** Filtering, searching, sorting, and pagination
+- **API Throttling:** Limited to 5 requests per minute for security
 
 ## 📁 Project Folder Structure
 
