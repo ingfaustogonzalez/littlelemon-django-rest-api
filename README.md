@@ -61,7 +61,7 @@ The repository includes ```Insomnia_2024-10-18.json```, which contains all API e
 6. **Order management:** Creation, assignment, and status updates
 7. **Additional endpoints:** Full user list (Manager only)
 
-To test: Import the JSON file into Insomnia. Each request is pre-configured with the correct URL, headers, and body formats.
+**To test:** Import the JSON file into [Insomnia](https://insomnia.rest/). Each request is pre-configured with the correct URL, headers, and body formats.
 
 ---
 
