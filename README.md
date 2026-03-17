@@ -1,11 +1,19 @@
 # 🍋 Little Lemon Django RESTful API
-_Django REST Framework backend for the Little Lemon restaurant, supporting managers, customers, and delivery crew._
+**Meta Back-End Developer Professional Certificate: Capstone Project**
 
 ## 📖 Description
 A fully functional RESTful API built with Django and Django REST Framework for the fictional Little Lemon restaurant. The system supports three user roles — **managers**, **customers**, and **delivery crew** — and implements user registration, token authentication, role assignment, menu management, cart workflows, order processing, delivery assignment, filtering, pagination, search, and API throttling.
 
-### Short Description
-A Django REST API enabling menu browsing, ordering, delivery assignment, and role‑based access control for the Little Lemon restaurant.
+This API serves as the engine for Little Lemon’s digital ecosystem. It handles complex workflows for three distinct user groups: **Managers**, **Customers**, and the **Delivery Crew**.
+
+The database is uniquely populated with authentic Venezuelan cuisine, adding a personal touch to the implementation of categories like Arepas, Cachapas, and Patacones.
+
+## 🧪 Testing with Insomnia (Recommended)
+To make reviewing this project as easy as possible, I have included a pre-configured Insomnia workspace.
+
+- **File:** ```Insomnia_2024-10-18.json``` (located in the root directory).
+- **How to use:** Import this file into [Insomnia](https://insomnia.rest/) to access all endpoints pre-filled with the correct methods, headers, and body payloads.
+
 
 ### Course Project
 This project was created as the final assessment for **Module 6: APIs** in the **Meta Back-End Developer Professional Certificate** on **Coursera**. It demonstrates practical application of authentication, permissions, serializers, viewsets, filtering, pagination, and throttling.
@@ -85,10 +93,6 @@ Each request already includes:
 - Preconfigured tokens (for demonstration only)
 
 **Import this file into Insomnia to test the entire API quickly and efficiently.**
-
-# 📸 Screenshots by Endpoint Category
-_All screenshots are located in:_
-littlelemon-django-rest-api/assets/
 ```
 
 ---
