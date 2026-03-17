@@ -61,7 +61,7 @@ littlelemon-django-rest-api/
 
 ---
 
-# **SECTION 4 — Insomnia Collection**
+# **Insomnia Collection**
 
 ```markdown
 ## 🧪 Insomnia Collection (Recommended for Testing)
@@ -208,11 +208,6 @@ python manage.py runserver
 
 ---
 
-# **SECTION 8 — Author**
-
-```markdown
 # 📬 Author
-**Fausto Gonzalez**  
-Email: ingfaustogonzalez@gmail.com
-```
+Fausto Gonzalez
 
