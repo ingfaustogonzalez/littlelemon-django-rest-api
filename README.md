@@ -26,33 +26,24 @@ The API provides:
 ```plaintext
 littlelemon-django-rest-api/
 │
-├── LittleLemon/
-│   ├── LittleLemon/
-│   │   ├── __init__.py
-│   │   ├── asgi.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   │
-│   ├── LittleLemonAPI/
-│   │   ├── __init__.py
-│   │   ├── admin.py
-│   │   ├── apps.py
-│   │   ├── models.py
-│   │   ├── serializers.py
-│   │   ├── tests.py
-│   │   ├── urls.py
-│   │   └── views.py
-│   │
-│   ├── db.sqlite3
-│   ├── Important_notes.txt
-│   ├── manage.py
-│   ├── Pipfile
-│   └── Pipfile.lock
+├── LittleLemon/               # Project configuration
+│   ├── LittleLemon/
+│   │   ├── settings.py
+│   │   └── urls.py
+│   │
+│   ├── LittleLemonAPI/        # Main API Application
+│   │   ├── models.py          # Database Schema
+│   │   ├── serializers.py     # Data Transformation
+│   │   ├── views.py           # Logic (FBV & CBV)
+│   │   └── urls.py            # API Routes
+│   │
+│   ├── manage.py
+│   ├── Pipfile
+│   └── db.sqlite3
 │
-├── Insomnia_2024-10-18.json
-├── README.md
-└── assets/
+├── Insomnia_2024-10-18.json   # API Workspace
+├── assets/                    # Screenshots
+└── README.md
 ```
 
 ---
